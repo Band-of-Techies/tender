@@ -112,7 +112,7 @@ const ProductGrid: React.FC = () => {
                   {product.productName}
                 </h3>
                 <p className="mt-1 text-lg font-bold text-gray-800 pl-4">
-                  ${product.cost}
+                ¢ {product.cost}
                 </p>
 
                 <button
